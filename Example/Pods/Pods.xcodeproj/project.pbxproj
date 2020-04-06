@@ -10,6 +10,8 @@
 		042F2C3F715DF8175B42EDB8CB1F43F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0688955473A04E0C8330881D876D705B /* Pods-LXBTestKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCBEB603AB21160B74D4BF4D381C94B /* Pods-LXBTestKit_Example-dummy.m */; };
 		10B94D319F369E0E58FDA9C8A9FFEB30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		181A8EC6243B0C5A0088FBCA /* CollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 181A8EC4243B0C5A0088FBCA /* CollectionReusableView.h */; };
+		181A8EC7243B0C5A0088FBCA /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A8EC5243B0C5A0088FBCA /* CollectionReusableView.m */; };
 		344A5C9204EAC1D38DD9246DAADC46F3 /* CustomeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 956FB60C51DDBE89E7272490A7F5340B /* CustomeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45D561A6E50FC6496EB555498AFB3730 /* CustomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE7AD809D0063551471D800ED774519 /* CustomeView.m */; };
 		5CB0675F8B512DB8B2F2E7F854AE0DF7 /* Pods-LXBTestKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBE6680AD14614673B590347A44F7F6 /* Pods-LXBTestKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,9 +44,11 @@
 		0A35ADAA9080050E2E634AF5C46D72AE /* Pods-LXBTestKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXBTestKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		10A9B8A50444D8104B7263F33347EE18 /* Pods-LXBTestKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXBTestKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		148DD241B4A528653060678A55D8C519 /* Pods-LXBTestKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBTestKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		181A8EC4243B0C5A0088FBCA /* CollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		181A8EC5243B0C5A0088FBCA /* CollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
 		188D8FECADAF11424640C872816B8BF2 /* Pods-LXBTestKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBTestKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1BBE6680AD14614673B590347A44F7F6 /* Pods-LXBTestKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXBTestKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		2916D28CFA64677F3C120BF614C51A50 /* Pods_LXBTestKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXBTestKit_Tests.framework; path = "Pods-LXBTestKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2916D28CFA64677F3C120BF614C51A50 /* Pods_LXBTestKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBTestKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E223FBC7856CB3865C7D0524DBB9C74 /* Pods-LXBTestKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXBTestKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4E78BA5ABD0EED0BBAB013CB4F590064 /* Pods-LXBTestKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXBTestKit_Tests.modulemap"; sourceTree = "<group>"; };
@@ -54,21 +58,21 @@
 		8C0F8794F6A29320A099BD5838845933 /* Pods-LXBTestKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXBTestKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		92C043F3919BFEDDBA42DD89FABCB6C1 /* Pods-LXBTestKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXBTestKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		956FB60C51DDBE89E7272490A7F5340B /* CustomeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomeView.h; path = LXBTestKit/Classes/CustomeView.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A072F6A9F902E53A8BB4FC197B0246B1 /* LXBTestKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXBTestKit.modulemap; sourceTree = "<group>"; };
 		ABBB812D44B674297D441D50B0E01302 /* LXBTestKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBTestKit-umbrella.h"; sourceTree = "<group>"; };
-		B04C01954E750577EDED152FEB207E29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B04C01954E750577EDED152FEB207E29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0E80C20E4DEC30C1BAA32663862A434 /* LXBTestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXBTestKit-dummy.m"; sourceTree = "<group>"; };
 		B6EA8558AF0487BA2A4AC0EF11D728C5 /* Pods-LXBTestKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBTestKit_Example-Info.plist"; sourceTree = "<group>"; };
 		B88412BC87083B8CB2A5DDE001936086 /* Pods-LXBTestKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXBTestKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BDAE1473554946A414C9B8A5F1FD0960 /* LXBTestKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXBTestKit-Info.plist"; sourceTree = "<group>"; };
 		C0614733902A33102059CDEFB00AD6BC /* Pods-LXBTestKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXBTestKit_Example.modulemap"; sourceTree = "<group>"; };
-		C44F1ACCEF69C015DCDF5E3ED3D34C23 /* LXBTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXBTestKit.framework; path = LXBTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F155347C66EEA7F19452B21A354143 /* LXBTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXBTestKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D02291AD25C319E495E16E1D4A6ECA3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C44F1ACCEF69C015DCDF5E3ED3D34C23 /* LXBTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXBTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F155347C66EEA7F19452B21A354143 /* LXBTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXBTestKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D02291AD25C319E495E16E1D4A6ECA3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DBCBEB603AB21160B74D4BF4D381C94B /* Pods-LXBTestKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXBTestKit_Example-dummy.m"; sourceTree = "<group>"; };
 		E426684F442FF868AA6A4CB0D70A530D /* LXBTestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXBTestKit-prefix.pch"; sourceTree = "<group>"; };
-		EB2DE6E1C5F087D10C4F445A393C4A77 /* Pods_LXBTestKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXBTestKit_Example.framework; path = "Pods-LXBTestKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2DE6E1C5F087D10C4F445A393C4A77 /* Pods_LXBTestKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBTestKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE7AD809D0063551471D800ED774519 /* CustomeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomeView.m; path = LXBTestKit/Classes/CustomeView.m; sourceTree = "<group>"; };
 		FD6F1ED5EAD4F643A478203D98BF1B79 /* Pods-LXBTestKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXBTestKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +221,8 @@
 			children = (
 				956FB60C51DDBE89E7272490A7F5340B /* CustomeView.h */,
 				EFE7AD809D0063551471D800ED774519 /* CustomeView.m */,
+				181A8EC4243B0C5A0088FBCA /* CollectionReusableView.h */,
+				181A8EC5243B0C5A0088FBCA /* CollectionReusableView.m */,
 				7F5CAAB5CC93BCA5F17E40F15EE788B0 /* Pod */,
 				61CFC9FDAFDAF5AB67889C4685E5C863 /* Support Files */,
 			);
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				344A5C9204EAC1D38DD9246DAADC46F3 /* CustomeView.h in Headers */,
+				181A8EC6243B0C5A0088FBCA /* CollectionReusableView.h in Headers */,
 				B2AFDC5D8CB8ED2F81DBAE0AB7CCA068 /* LXBTestKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +385,7 @@
 			files = (
 				45D561A6E50FC6496EB555498AFB3730 /* CustomeView.m in Sources */,
 				AD8DBE0933F6C136C5F06B13F788B93D /* LXBTestKit-dummy.m in Sources */,
+				181A8EC7243B0C5A0088FBCA /* CollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,8 +565,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
