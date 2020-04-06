@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09A60372D5DD0520D4CC1E11 /* LXBTestKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LXBTestKit.podspec; path = ../LXBTestKit.podspec; sourceTree = "<group>"; };
+		09A60372D5DD0520D4CC1E11 /* LXBTestKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LXBTestKit.podspec; path = ../LXBTestKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		37177E7CC24266FC70A51D95 /* Pods_LXBTestKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBTestKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3919DBA107E5225283A7A0D6 /* Pods_LXBTestKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXBTestKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LXBTestKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXBTestKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A10315454FE5F33E15AEAE4F /* Pods-LXBTestKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXBTestKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-LXBTestKit_Example/Pods-LXBTestKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A238CD147C20E0FA8CC36DC4 /* Pods-LXBTestKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXBTestKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LXBTestKit_Tests/Pods-LXBTestKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A2CF681674D4D44D0A789D5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AAF4C4125D4841147D0242AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A2CF681674D4D44D0A789D5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AAF4C4125D4841147D0242AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB78B1681852C1DDFFFBF638 /* Pods-LXBTestKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXBTestKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LXBTestKit_Example/Pods-LXBTestKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				A238CD147C20E0FA8CC36DC4 /* Pods-LXBTestKit_Tests.debug.xcconfig */,
 				6ECAACC08C933ADA80FE5511 /* Pods-LXBTestKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

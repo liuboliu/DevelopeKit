@@ -1,5 +1,5 @@
 PODS:
-  - LXBTestKit (0.1.0)
+  - LXBTestKit (0.1.2)
 
 DEPENDENCIES:
   - LXBTestKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXBTestKit: da3e78db78458b3467236a3869ed49f4082a7d01
+  LXBTestKit: 4742c87c0adbe41f0e00171f0c6a91e301e20b97
 
 PODFILE CHECKSUM: 75832ca4a034dc5a00706223ac570972f7bd184d
 
