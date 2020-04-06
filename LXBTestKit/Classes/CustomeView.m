@@ -14,6 +14,12 @@
 {
     if (self = [super initWithFrame:frame]) {
         NSLog(@"你好你好你好");
+        
+        
+        
+        
+        
+        ///////
     }
     return self;
 }
